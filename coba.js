@@ -1,4 +1,4 @@
-const kata = "#agreement 06111212345"
+const fullName = "JOFANLY I TOMBENG";
+const result = fullName.replace(/ /g, "%20");
 
-const pecah = kata.split(" ")[1]
-console.log(pecah);
+console.log(result);
